@@ -109,6 +109,7 @@
     &--card-list-wrapper {
       max-width: 414px;
       @extend .w-100;
+      overflow: hidden;
       @media (max-width: $medium-devices-max+px) {
         max-width: 100%;
       }
